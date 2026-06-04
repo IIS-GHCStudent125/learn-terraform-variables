@@ -126,6 +126,7 @@ module "ec2_instances" {
     environment = "developmemt"
   }
 }
+
 module "s3-drs-20260604" {
   source  = "app.terraform.io/policy-as-code-training/s3-drs-20260604/aws"
   version = "1.0.0"
